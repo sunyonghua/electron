@@ -1,0 +1,15 @@
+{
+  "name": "my-electron-app",
+  "version": "0.1.0",
+  "author": "sunyonghua",
+  "description": "My Electron app",
+  "main": "index.ts",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "@types/electron": "^1.6.10",
+    "axios": "^0.21.1",
+    "electron": "^19.0.2"
+  }
+}
