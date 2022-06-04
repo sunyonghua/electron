@@ -1,4 +1,4 @@
-const {app, BrowserWindow} = require('electron')
+const { app, BrowserWindow } = require('electron')
 const path = require('path')
 
 function createWindow() {
@@ -9,7 +9,7 @@ function createWindow() {
     /** 开启node */
     webPreferences: {
       nodeIntegration: true,
-      preload: path.join(__dirname, 'preload.js')
+      preload: path.join(__dirname, 'preload.js'),
     },
   })
 

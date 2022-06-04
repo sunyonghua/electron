@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "lib": ["es2015", "es2016", "es2015.iterable", "dom", "dom.iterable", "ES2020.String"],
+    "baseUrl": "./",
+    "types": ["jest", "node", "react", "document", "webpack-env"],
+    "allowJs": true
+  },
+  "jsx": "react",
+  "modules": "commonjs",
+  "exclude": ["node_modules", "dist"]
+}
